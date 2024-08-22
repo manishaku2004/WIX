@@ -85,7 +85,7 @@ main h1 {
 }
 
 .main1 {
-    background-image: url(image.jpg);
+    background-image: url(photo/image.jpg);
     background-position: center;
     background-size: cover;
     align-items: center;
@@ -187,7 +187,7 @@ main h1 {
 .main3 {
     width: 50%;
     margin-right: 0px;
-    background-image: url(images.jpg);
+    background-image: url(photo/images.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,12 +200,14 @@ main h1 {
 }
 
 .main4 {
-    background-image: url(download\ \(1\).jpg);
+    background-image: url(photo/download\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     /* background-color:transparent; */
+    background-color: rgba(250, 245, 245, 0.5);
+
 }
 
 .m2 {
@@ -213,6 +215,7 @@ main h1 {
     flex-direction: row;
     /* margin: 80px; */
     margin: 0 auto;
+    color: #e8dbdb;
 }
 
 .hov3 {
@@ -225,6 +228,8 @@ main h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    /* background-color: #d09797; */
+    /* background-color: rgba(250, 245, 245, 0.5); */
 }
 
 .hov4 {
