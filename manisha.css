@@ -385,7 +385,7 @@ left: 0;
     }
     .abhi2 {
         width: 100%;
-        height: 60vh;
+        /* height: 60vh; */
         background-color:rgb(226, 208, 208);
         position: fixed;
         display: block;
@@ -400,14 +400,14 @@ left: 0;
     }
     .row{
         width: 100%;
-        height: 200vh;
+        /* height: 200vh; */
       display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column;
     }
     .main3{
-        height: 800px;
+        /* height: 800px; */
         margin-right: 0;
         
     }
@@ -431,7 +431,7 @@ left: 0;
         font-size: 18px;}
    .m2{
     width: 100%;
-    height: 300vh;
+    /* height: 300vh; */
   display: flex;
  justify-content: center;
  align-items: center;
@@ -446,6 +446,69 @@ left: 0;
    .hov5  h1 {
     font-size: 25px;
    }
+}
+@media screen and (max-width:541px) {
+    .abhi h1 {
+        font-size: 14px;}
+        .abhi h4 {
+            font-size: 10px;}
+            #checkbtn{
+                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              margin-left: 250px;
+            
+               
+            }
+            .abhi2 {
+                width: 100%;
+                /* height: 60vh; */
+                background-color:rgb(226, 208, 208);
+                position: fixed;
+                display: block;
+                text-align: center;
+                top:65px;
+                left: -100%;
+                transition: 0.5s;
+            }
+            .main1 h1{
+                font-size: 20px;
+                 }
+                 
+            .m2{
+                width: 100%;
+                /* height: 10px; */
+              display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             font-size: 10px;
+             
+               }
+               .mani4{
+                font-size: 10px;
+               }
+               .hov3  h1 {
+                font-size: 17px;
+               }
+               .hov4  h1 {
+                font-size: 17px;
+               }
+               .hov5  h1 {
+                font-size: 15px;
+               }
+               footer{
+                width: 100%;
+                
+              display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             
+               }
+               
+
 }
    
 
