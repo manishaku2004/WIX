@@ -360,3 +360,96 @@ footer .ram5 {
     margin: 50px;
 
 }
+    
+#checkbtn{
+font-size: 30px;
+
+display: none;
+
+}
+#check{
+  display: none;
+}
+#check:checked ~.abhi2{
+left: 0;
+}
+@media screen and (max-width:925px) {
+    #checkbtn{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      margin-left: 450px;
+    
+       
+    }
+    .abhi2 {
+        width: 100%;
+        height: 60vh;
+        background-color:rgb(226, 208, 208);
+        position: fixed;
+        display: block;
+        text-align: center;
+        top:75px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    .abhi h1 {
+        font-size: 20px;
+
+    }
+    .row{
+        width: 100%;
+        height: 200vh;
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+    }
+    .main3{
+        height: 800px;
+        margin-right: 0;
+        
+    }
+  .main1 h1{
+ font-size: 30px;
+  }
+  .main1 b {
+    font-size: 50px;
+  }
+  .hov {
+    font-size: 10px;
+
+   }
+   .hov2{
+    font-size: 10px;
+   }
+  
+}
+ @media screen and (max-width:841px) {
+    .abhi h1 {
+        font-size: 18px;}
+   .m2{
+    width: 100%;
+    height: 300vh;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+   }
+   .hov3  h1 {
+    font-size: 25px;
+   }
+   .hov4  h1 {
+    font-size: 25px;
+   }
+   .hov5  h1 {
+    font-size: 25px;
+   }
+}
+   
+
+    
+    
+
+
