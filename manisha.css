@@ -400,15 +400,20 @@ left: 0;
     }
     .row{
         width: 100%;
-        /* height: 200vh; */
+        
       display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column;
     }
+    .mk{
+        width: 100%;
+     margin: 0;
+    }
     .main3{
-        /* height: 800px; */
-        margin-right: 0;
+        width: 100%;
+        height: 300px;
+       
         
     }
   .main1 h1{
@@ -429,9 +434,10 @@ left: 0;
  @media screen and (max-width:841px) {
     .abhi h1 {
         font-size: 18px;}
+        
    .m2{
     width: 100%;
-    /* height: 300vh; */
+    
   display: flex;
  justify-content: center;
  align-items: center;
@@ -444,45 +450,30 @@ left: 0;
     font-size: 25px;
    }
    .hov5  h1 {
-    font-size: 25px;
+    font-size: 25px; 
    }
 }
 @media screen and (max-width:541px) {
     .abhi h1 {
-        font-size: 14px;}
+        font-size: 10px;}
         .abhi h4 {
             font-size: 10px;}
             #checkbtn{
-                display: block;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                
               margin-left: 250px;
             
                
             }
             .abhi2 {
-                width: 100%;
-                /* height: 60vh; */
-                background-color:rgb(226, 208, 208);
-                position: fixed;
-                display: block;
-                text-align: center;
                 top:65px;
-                left: -100%;
-                transition: 0.5s;
+
             }
             .main1 h1{
                 font-size: 20px;
                  }
                  
             .m2{
-                width: 100%;
-                /* height: 10px; */
-              display: flex;
-             justify-content: center;
-             align-items: center;
-             flex-direction: column;
+                
              font-size: 10px;
              
                }
@@ -496,11 +487,12 @@ left: 0;
                 font-size: 17px;
                }
                .hov5  h1 {
-                font-size: 15px;
+                font-size: 17px;
+              
                }
                footer{
                 width: 100%;
-                
+                margin-left: 55px ;
               display: flex;
              justify-content: center;
              align-items: center;
@@ -511,7 +503,42 @@ left: 0;
 
 }
    
+@media screen and (max-width:415px) {
+    #checkbtn{
 
+      margin-left: 150px;
+    font-size: 20px;
+       
+    }
+    .main1 h1{
+        font-size: 17px;
+         }
+         .hov3  h1 {
+            font-size: 15px;
+           }
+           .hov4  h1 {
+            font-size: 15px;
+           }
+           .hov5  h1 {
+            font-size: 15px;
+          
+           }
+           footer{
+            width: 100%;
+            margin-left: 30px;
+         
+         
+           }
+        
+}
+@media screen and (max-width:355px) {
+    footer{
+        
+        margin-left: 45px;
+      
+     
+       }
+}
     
     
 
