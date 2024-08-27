@@ -16,6 +16,8 @@ body {
     background-attachment: fixed;
     position: fixed;
     top: 0px;
+    margin: 0px;
+    justify-content: space-between;
 
 
 }
@@ -51,14 +53,14 @@ body {
 }
 
 #body2 {
-    width: 100vw;
+    width: 100%;
     /* height: 80vh; */
     margin-top: 100px;
 }
 
 main {
 
-    width: 100vw;
+    width: 100%;
     /* height: 80vh; */
    
    
@@ -207,7 +209,8 @@ main h1 {
     background-attachment: fixed;
     /* background-color:transparent; */
     background-color: rgba(250, 245, 245, 0.5);
-
+margin: 0px;
+width: 100%;
 }
 
 .m2 {
@@ -274,6 +277,7 @@ main h1 {
 .hov6:hover {
     background-color: beige;
     color: #000;
+    
 
 }
 
@@ -304,12 +308,13 @@ main h1 {
 
 footer {
     display: flex;
+    width: 100%;
     /* flex-direction: row; */
 }
 
 footer .ram {
-    margin-left: 80px;
-    width: 500px;
+    /* margin-left: 80px; */
+    width: 50%;
 
 }
 
@@ -318,8 +323,8 @@ footer .ram h1 {
 }
 
 footer .ram2 {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    /* margin-top: 50px;
+    margin-bottom: 30px; */
 
 }
 
@@ -339,7 +344,7 @@ footer .ram4 {
 }
 
 footer .ram5 {
-    margin-top: 50px;
+    margin-top: auto;
 
 
 }
@@ -352,7 +357,7 @@ footer .ram5 {
     align-items: center;
     flex-direction: column;
     position: static;
-
+ width: 50%;
 
 }
 
@@ -379,7 +384,7 @@ left: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-      margin-left: 450px;
+      
     
        
     }
@@ -453,17 +458,16 @@ left: 0;
     font-size: 25px; 
    }
 }
-@media screen and (max-width:541px) {
+@media screen and (max-width:548px) {
     .abhi h1 {
         font-size: 10px;}
         .abhi h4 {
             font-size: 10px;}
-            #checkbtn{
+            /* #checkbtn{
                 
-              margin-left: 250px;
-            
+                margin-left: 450px;: ;          
                
-            }
+            } */
             .abhi2 {
                 top:65px;
 
@@ -492,7 +496,7 @@ left: 0;
                }
                footer{
                 width: 100%;
-                margin-left: 55px ;
+                /* margin-left: 55px ; */
               display: flex;
              justify-content: center;
              align-items: center;
@@ -506,8 +510,8 @@ left: 0;
 @media screen and (max-width:415px) {
     #checkbtn{
 
-      margin-left: 150px;
-    font-size: 20px;
+      
+    /* font-size: 20px; */
        
     }
     .main1 h1{
@@ -525,21 +529,26 @@ left: 0;
            }
            footer{
             width: 100%;
-            margin-left: 30px;
+            /* margin-left: 30px; */
          
          
            }
         
 }
-@media screen and (max-width:355px) {
-    footer{
-        
-        margin-left: 45px;
-      
-     
+/* @media screen and (max-width:265px) {
+    
+
+    .hov3  h1 {
+        font-size: 3hv;
        }
+       .hov4  h1 {
+        font-size: 10px;
+       }
+       .hov5  h1 {
+        font-size: 10px;
+      
 }
     
-    
+}   */
 
 
