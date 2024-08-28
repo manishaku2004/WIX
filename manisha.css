@@ -26,11 +26,12 @@ body {
     width: 30%;
 
     background-color: #ffff;
-    margin-top: 35px;
+   
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 3%;
 }
 
 .abhi h1 {
@@ -55,7 +56,7 @@ body {
 #body2 {
     width: 100%;
     /* height: 80vh; */
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 main {
@@ -102,7 +103,7 @@ main h1 {
     /* margin-top: 90px; */
 }
 .manisha {
-    margin-top: 100px;
+    margin-top: 45%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -131,8 +132,10 @@ main h1 {
 }
 
 .main2 {
-    width: 50%;
+    width: 100%;
+   
     background-color: aliceblue;
+    display: flex;
     justify-content: center;
 
 
@@ -187,7 +190,7 @@ main h1 {
 }
 
 .main3 {
-    width: 50%;
+    width: 100%;
     margin-right: 0px;
     background-image: url(photo/images.jpg);
     background-position: center;
@@ -314,7 +317,11 @@ footer {
 
 footer .ram {
     /* margin-left: 80px; */
-    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 
 }
 
@@ -357,7 +364,7 @@ footer .ram5 {
     align-items: center;
     flex-direction: column;
     position: static;
- width: 50%;
+ width: 100%;
 
 }
 
@@ -413,7 +420,7 @@ left: 0;
     }
     .mk{
         width: 100%;
-     margin: 0;
+     margin: 5%;
     }
     .main3{
         width: 100%;
@@ -438,7 +445,7 @@ left: 0;
 }
  @media screen and (max-width:841px) {
     .abhi h1 {
-        font-size: 18px;}
+        font-size: 19px;}
         
    .m2{
     width: 100%;
@@ -448,7 +455,7 @@ left: 0;
  align-items: center;
  flex-direction: column;
    }
-   .hov3  h1 {
+   /* .hov3  h1 {
     font-size: 25px;
    }
    .hov4  h1 {
@@ -456,11 +463,48 @@ left: 0;
    }
    .hov5  h1 {
     font-size: 25px; 
+   } */
+    /* .mani4 h1 {
+        
+    } */
+   .hov3{
+    width: 80%;
    }
+   .hov4{
+    width: 80%;
+   }
+   .hov5{
+    width: 80%;
+   }
+   .container{
+    width: 100%;
 }
-@media screen and (max-width:548px) {
+.name {
+    margin: 30px;
+}
+footer .ram {
+    /* margin-left: 80px; */
+    width: 100%;
+    margin: 5%;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+}
+footer .ram3 {
+    margin-top: 30px;
+}
+footer .ram4 {
+    margin-top: 30px;
+}
+
+
+}
+@media screen and (max-width:588px) {
     .abhi h1 {
-        font-size: 10px;}
+        font-size: 14px;}
         .abhi h4 {
             font-size: 10px;}
             /* #checkbtn{
@@ -472,19 +516,19 @@ left: 0;
                 top:65px;
 
             }
-            .main1 h1{
-                font-size: 20px;
+            .manisha h1{
+                font-size: 24px;
                  }
                  
             .m2{
                 
-             font-size: 10px;
+             font-size: 17px;
              
                }
                .mani4{
                 font-size: 10px;
                }
-               .hov3  h1 {
+               /* .hov3  h1 {
                 font-size: 17px;
                }
                .hov4  h1 {
@@ -493,7 +537,7 @@ left: 0;
                .hov5  h1 {
                 font-size: 17px;
               
-               }
+               } */
                footer{
                 width: 100%;
                 /* margin-left: 55px ; */
@@ -502,8 +546,16 @@ left: 0;
              align-items: center;
              flex-direction: column;
              
+             
                }
+               .container{
+                width: 100%;
                
+               }
+               .name {
+                margin: 30px;
+            }
+           
 
 }
    
@@ -513,11 +565,12 @@ left: 0;
       
     /* font-size: 20px; */
        
-    }
+    } 
+    
     .main1 h1{
         font-size: 17px;
          }
-         .hov3  h1 {
+         /* .hov3  h1 {
             font-size: 15px;
            }
            .hov4  h1 {
@@ -526,7 +579,7 @@ left: 0;
            .hov5  h1 {
             font-size: 15px;
           
-           }
+           } */
            footer{
             width: 100%;
             /* margin-left: 30px; */
