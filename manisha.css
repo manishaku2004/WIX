@@ -91,8 +91,8 @@ main h1 {
     background-image: url(photo/image.jpg);
     background-position: center;
     background-size: cover;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     margin:0 auto;
     display: flex;
     align-items: center;
@@ -104,8 +104,8 @@ main h1 {
 }
 .manisha {
     margin-top: 45%;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,8 +142,8 @@ main h1 {
 }
 
 .m {
-    align-items: center;
-    justify-items: center;
+    /* align-items: center;
+    justify-items: center; */
     display: flex;
     justify-content: center;
 
@@ -345,9 +345,18 @@ footer .ram4 {
     margin-top: 50px;
 }
 
-.ram6 i {
-    margin: 10px;
+.ram6  {
+    /* margin-top: 500px; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    height: 135px;
+    font-size: 30px;
 
+    
 }
 
 footer .ram5 {
